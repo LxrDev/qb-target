@@ -1,4 +1,4 @@
-if you want help join my discord and open ticket
+if you need help join my discord and open ticket
 
 Discord : https://discord.gg/R9KgyCkXJp
 
