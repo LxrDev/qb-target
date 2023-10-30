@@ -1,0 +1,168 @@
+@import url('https://fonts.googleapis.com/css?family=Tajawal:700&display=swap&subset=arabic');  
+
+/* Nice font for button from Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Bhaijaan+2:wght@400;500;600;700;800&family=Changa:wght@200;300;400;500;600;700;800&family=IBM+Plex+Sans+Arabic:wght@100;200;300;400;500;600;700&display=swap');
+/* Nice font for button from Google Fonts */
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;500&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Readex+Pro:wght@700&display=swap'); 
+
+
+body {
+    font-family: 'Readex Pro', sans-serif;
+    text-shadow: 2px 1px 13px rgba(0,0,0,1);  
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    overflow: hidden;
+    font-family: verdana;
+    overflow-x: hidden;
+}
+
+
+#target-eye {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateY(-50%) translateX(-50%);
+    font-size: 5vh;
+    transition: 9000.111111s;
+    width: 2.11vh;
+    height: 1.20vw;
+}
+
+
+#target-label-wrapper {
+    position: absolute;
+    left: 51.0%;
+    top: 51.40%;
+    font-family: 'Readex Pro', sans-serif;
+    width: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#target-label {
+    list-style: none;
+    font-size: 1.15vh;
+    color: rgb(255, 255, 255);
+    user-select: none;
+    white-space: nowrap;
+    letter-spacing: 0.4px;
+    font-family: 'Readex Pro', sans-serif;
+    padding: 0.22vh;
+    transition: 0.22s;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-content: flex-start;
+    align-items: flex-start;
+}
+
+.alllineshere{
+    position: absolute;
+    width: 100%;
+}
+
+.linenumber1{
+    position: absolute;
+    width: 0vh;
+    height: 0.2vh;
+    margin-left: 50%;
+    margin-right: 50%;
+    top: 49.9vh;
+    left: 3.25vh;
+}
+
+.linenumber2{
+    position: absolute;
+    width: 0.2vh;
+    height: 0vh;
+    margin-left: 50%;
+    margin-right: 50%;
+    top: 49.9vh;
+    left: 6.0vh;
+}
+
+
+
+
+.targetclass{
+    top: -2.6vh;
+    left: 3.5px;
+    position: relative;
+    min-width: 10.1vh;
+    width: auto;
+    background: linear-gradient(90deg, rgba(43, 43, 43, 0.87), rgba(43, 43, 43, 0));
+    border-left: 2px solid #8d74c9;
+    padding-right: 7px;
+    padding-left: 7px;
+    padding-top: 0.1vh;
+    padding-bottom: 0.1vh;
+    border-radius: 1px;
+    text-align: left;
+    margin-bottom: 0.3vh;
+}
+
+.targetclass:hover{
+    transform: scale(1.0355);
+    line-height: 1.55vh;
+    color: rgb(23, 143, 255);
+}
+
+@-webkit-keyframes pulse2 {
+    0% {
+      -webkit-box-shadow: 0 0 0 0 rgba(14, 212, 238, 0.4);
+    }
+    70% {
+        -webkit-box-shadow: 0 0 0 10px rgba(14, 212, 238, 0);
+    }
+    100% {
+        -webkit-box-shadow: 0 0 0 0 rgba(14, 212, 238, 0);
+    }
+  }
+  @keyframes pulse2 {
+    0% {
+      -moz-box-shadow: 0 0 0 0 rgba(34, 175, 222, 0.63);
+      box-shadow: 0 0 0 0 rgba(34, 175, 222, 0.63);
+    }
+    70% {
+        -moz-box-shadow: 0 0 0 16px rgba(14, 212, 238, 0);
+        box-shadow: 0 0 0 16px rgba(14, 212, 238, 0);
+    }
+    100% {
+        -moz-box-shadow: 0 0 0 0 rgba(14, 212, 238, 0);
+        box-shadow: 0 0 0 0 rgba(14, 212, 238, 0);
+    }
+  }
+
+
+
+@-webkit-keyframes pulse {
+    0% {
+      -webkit-box-shadow: 0 0 0 0 rgba(21, 21, 21, 0.4);
+    }
+    70% {
+        -webkit-box-shadow: 0 0 0 16px rgba(24, 24, 24, 0);
+    }
+    100% {
+        -webkit-box-shadow: 0 0 0 0 rgba(21, 21, 21, 0);
+    }
+  }
+  @keyframes pulse {
+    0% {
+      -moz-box-shadow: 0 0 0 0 rgba(0, 0, 0, 0.4);
+      box-shadow: 0 0 0 0 rgba(0, 0, 0, 0.4);
+    }
+    70% {
+        -moz-box-shadow: 0 0 0 18px rgba(17, 17, 17, 0);
+        box-shadow: 0 0 0 18px rgba(17,17,17, 0);
+    }
+    100% {
+        -moz-box-shadow: 0 0 0 0 rgba(17,17,17, 0);
+        box-shadow: 0 0 0 0 rgba(17,17,17, 0);
+    }
+  }
