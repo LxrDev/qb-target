@@ -136,7 +136,7 @@ const Targeting = Vue.createApp({
             setTimeout(() => {
                 $('#target-eye').css('transform','translateY(-50%) translateX(-50%)  rotate(4000000deg)');
                 $('.blackbeforeye').css('animation', 'pulse2 0.9s ease forwards');
-                $("#target-eye").attr('src', 'https://cdn.discordapp.com/attachments/1020372469732888576/1129992743477846267/arrow-double-rotate-right_1.png');
+                $("#target-eye").attr('src', 'https://cdn.discordapp.com/attachments/1163105405120020570/1168998768922853519/arrow-double-rotate-right_1.png?ex=6553cdf1&is=654158f1&hm=cde75ca6a1ad158c06a196f0a08c7992a4330f5f017c393495689aa0744a882e&');
             }, 10);
             setTimeout(() => {
                 $('#target-eye').css('transform','translateY(-50%) translateX(-50%)  rotate(4000000deg)');
