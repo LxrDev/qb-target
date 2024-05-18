@@ -108,7 +108,7 @@ const Targeting = Vue.createApp({
     },
     methods: {
         OpenTarget() {
-            $("#target-eye").attr('src', 'https://cdn.discordapp.com/attachments/952117961081106432/1108153548115558530/arrow-double-rotate-right.png');
+            $("#target-eye").attr('src', 'https://cdn.discordapp.com/attachments/1163105405120020570/1241302011622981642/arrow-double-rotate-right_1_2.png?ex=6649b415&is=66486295&hm=c929f9692526b2247ae5b57b2d2bf2f7586ba2381f9eef27ea70786f6a3aac9d&');
             $("#target-eye").fadeIn(50);
             this.targetLabel.innerHTML = "";
             this.Show = true;
@@ -136,7 +136,7 @@ const Targeting = Vue.createApp({
             setTimeout(() => {
                 $('#target-eye').css('transform','translateY(-50%) translateX(-50%)  rotate(4000000deg)');
                 $('.blackbeforeye').css('animation', 'pulse2 0.9s ease forwards');
-                $("#target-eye").attr('src', 'https://cdn.discordapp.com/attachments/1163105405120020570/1168998768922853519/arrow-double-rotate-right_1.png?ex=6553cdf1&is=654158f1&hm=cde75ca6a1ad158c06a196f0a08c7992a4330f5f017c393495689aa0744a882e&');
+                $("#target-eye").attr('src', 'https://cdn.discordapp.com/attachments/1163105405120020570/1241302026000928770/arrow-double-rotate-right_1_1.png?ex=6649b419&is=66486299&hm=105d3a723a2a0ab747e7da1a45b435a5a6a789726ebc48d780b2f7827249951c&');
             }, 10);
             setTimeout(() => {
                 $('#target-eye').css('transform','translateY(-50%) translateX(-50%)  rotate(4000000deg)');
@@ -188,7 +188,7 @@ const Targeting = Vue.createApp({
             $(".linenumber1").animate({ width: '0vh' }, 25);
             $(".linenumber2").animate({ height: '0vh' }, 50);
             setTimeout(() => {
-                $("#target-eye").attr('src', 'https://cdn.discordapp.com/attachments/952117961081106432/1108153548115558530/arrow-double-rotate-right.png');
+                $("#target-eye").attr('src', 'https://cdn.discordapp.com/attachments/1163105405120020570/1241302011622981642/arrow-double-rotate-right_1_2.png?ex=6649b415&is=66486295&hm=c929f9692526b2247ae5b57b2d2bf2f7586ba2381f9eef27ea70786f6a3aac9d&');
                 this.targetLabel.innerHTML = "";
                 this.CurrentIcon = this.StandardEyeIcon;
                 this.TargetEyeStyleObject.color = this.StandardColor;
