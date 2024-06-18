@@ -108,7 +108,7 @@ const Targeting = Vue.createApp({
     },
     methods: {
         OpenTarget() {
-            $("#target-eye").attr('src', 'https://cdn.discordapp.com/attachments/1163105405120020570/1241302011622981642/arrow-double-rotate-right_1_2.png?ex=66583495&is=6656e315&hm=a4dc84e9194ba0201e3500663872481bc598d061127c746374bd4f804a548a7e&');
+            $("#target-eye").attr('src', 'https://cdn.discordapp.com/attachments/1163105405120020570/1252439873835765801/lxrdev.png?ex=66723907&is=6670e787&hm=1b34412acaa2a0c512f018c4e168c6f0a5ad5b02acf04ea9fc45e17ed92843e4&');
             $("#target-eye").fadeIn(50);
             this.targetLabel.innerHTML = "";
             this.Show = true;
@@ -136,7 +136,7 @@ const Targeting = Vue.createApp({
             setTimeout(() => {
                 $('#target-eye').css('transform','translateY(-50%) translateX(-50%)  rotate(4000000deg)');
                 $('.blackbeforeye').css('animation', 'pulse2 0.9s ease forwards');
-                $("#target-eye").attr('src', 'https://cdn.discordapp.com/attachments/1163105405120020570/1241302026000928770/arrow-double-rotate-right_1_1.png?ex=66583499&is=6656e319&hm=aa69e9c87352f4f2d1ec4b266032547b31f6641dde5585252e4288c1892dd520&');
+                $("#target-eye").attr('src', 'https://cdn.discordapp.com/attachments/1163105405120020570/1252439874129231902/lxrdev2.png?ex=66723907&is=6670e787&hm=f5b4391967441972d75cc3a01a8647a9acc4aad32db20a1d69a08256f7e08653&');
             }, 10);
             setTimeout(() => {
                 $('#target-eye').css('transform','translateY(-50%) translateX(-50%)  rotate(4000000deg)');
@@ -188,7 +188,7 @@ const Targeting = Vue.createApp({
             $(".linenumber1").animate({ width: '0vh' }, 25);
             $(".linenumber2").animate({ height: '0vh' }, 50);
             setTimeout(() => {
-                $("#target-eye").attr('src', 'https://cdn.discordapp.com/attachments/1163105405120020570/1241302011622981642/arrow-double-rotate-right_1_2.png?ex=66583495&is=6656e315&hm=a4dc84e9194ba0201e3500663872481bc598d061127c746374bd4f804a548a7e&');
+                $("#target-eye").attr('src', 'https://cdn.discordapp.com/attachments/1163105405120020570/1252439873835765801/lxrdev.png?ex=66723907&is=6670e787&hm=1b34412acaa2a0c512f018c4e168c6f0a5ad5b02acf04ea9fc45e17ed92843e4&');
                 this.targetLabel.innerHTML = "";
                 this.CurrentIcon = this.StandardEyeIcon;
                 this.TargetEyeStyleObject.color = this.StandardColor;
