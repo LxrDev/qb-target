@@ -108,7 +108,7 @@ const Targeting = Vue.createApp({
     },
     methods: {
         OpenTarget() {
-            $("#target-eye").attr('src', 'https://cdn.discordapp.com/attachments/1163105405120020570/1252439873835765801/lxrdev.png?ex=66f21a87&is=66f0c907&hm=942567878b38802022a78e8c3df23990de8f7490ea2123d814ab293b06500d29&');
+            $("#target-eye").attr('src', 'https://i.postimg.cc/gLV0B4D8/lxrdev.png');
             $("#target-eye").fadeIn(50);
             this.targetLabel.innerHTML = "";
             this.Show = true;
@@ -136,7 +136,7 @@ const Targeting = Vue.createApp({
             setTimeout(() => {
                 $('#target-eye').css('transform','translateY(-50%) translateX(-50%)  rotate(4000000deg)');
                 $('.blackbeforeye').css('animation', 'pulse2 0.9s ease forwards');
-                $("#target-eye").attr('src', 'https://cdn.discordapp.com/attachments/1163105405120020570/1252439874129231902/lxrdev2.png?ex=66f21a87&is=66f0c907&hm=501f65e37253e9c48a3f31804b3b1c5e0c2e00bd1f177ab8801402fda38e54af&');
+                $("#target-eye").attr('src', 'https://i.postimg.cc/CLXKq8P2/lxrdev2.png');
             }, 10);
             setTimeout(() => {
                 $('#target-eye').css('transform','translateY(-50%) translateX(-50%)  rotate(4000000deg)');
@@ -188,7 +188,7 @@ const Targeting = Vue.createApp({
             $(".linenumber1").animate({ width: '0vh' }, 25);
             $(".linenumber2").animate({ height: '0vh' }, 50);
             setTimeout(() => {
-                $("#target-eye").attr('src', 'https://cdn.discordapp.com/attachments/1163105405120020570/1252439873835765801/lxrdev.png?ex=66f21a87&is=66f0c907&hm=942567878b38802022a78e8c3df23990de8f7490ea2123d814ab293b06500d29&');
+                $("#target-eye").attr('src', 'https://i.postimg.cc/gLV0B4D8/lxrdev.png');
                 this.targetLabel.innerHTML = "";
                 this.CurrentIcon = this.StandardEyeIcon;
                 this.TargetEyeStyleObject.color = this.StandardColor;
